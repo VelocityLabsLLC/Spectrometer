@@ -13,4 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require bootstrap-sprockets
+//= require nvd3-rails
+//= require getUserMedia.min
+//= require init
+//= require app.camera

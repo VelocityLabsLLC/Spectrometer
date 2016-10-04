@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+gem 'bootstrap-sass'
+gem "nvd3-rails"

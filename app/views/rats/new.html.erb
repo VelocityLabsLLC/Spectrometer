@@ -1,0 +1,22 @@
+<div class="scan">
+	<div class="container">
+	  <h1>Camera Reading</h1>
+	  <video id="camera" autoplay> </video>
+	</div>
+	<div class="container">
+    <div class="form">
+      <h1>Animal info</h1>
+			  <%= form_for(:rat) do |f| %> 
+ 				  <%= f.text_field :strain, :placeholder => "Email" %> 
+ 				  <%= f.text_field :number, :placeholder => "Password" %> 
+ 				  <%= f.submit "Log in", class: "btn-submit" %>
+			  <% end %>
+		</div>
+		<section>
+      <button id="btnStart">Start video</button>
+      <button id="btnStop">Stop video</button>            
+      <button id="btnPhoto">Take a photo</button>
+    </section>
+    <canvas id="canvas" width="320" height="240"></canvas>
+	</div>
+</div>
